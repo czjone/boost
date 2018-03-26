@@ -15,19 +15,24 @@
 ##### 编译
 
 1. macosx
-	a.sh build.sh -macos  	#编译生成boost mac版本的库
-	b.sh build.sh -ios		#编译生成boost ios版本的库
-	c.sh build.sh -android	#编译生成boost android版本的库
+	a. sh build.sh -macos  	#编译生成boost mac版本的库
+
+	b. sh build.sh -ios		#编译生成boost ios版本的库
+
+	c. sh build.sh -android	#编译生成boost android版本的库
 
 2. linux
-TODO:: 增加linux的编译支持
+
+	TODO:: 增加linux的编译支持
 
 3. windows
-TOTO:: 增加windows的编译支持
+
+	TOTO:: 增加windows的编译支持
 
 4. 生成的库
 
 	a. include ：库的头文件
+	
 	b. bin		：编译后的二进制文件
 
 
