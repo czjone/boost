@@ -27,8 +27,8 @@ TOTO:: 增加windows的编译支持
 
 4. 生成的库
 
-a. include ：库的头文件
-b. bin		：编译后的二进制文件
+	a. include ：库的头文件
+	b. bin		：编译后的二进制文件
 
 
 ##### 联系作者
