@@ -7,7 +7,6 @@
 
 1、boost v1.66.0 下载地址 :http://www.boost.org/users/download/
 
-
 ##### 当前编译的的库
 
 1、asio 和asio的依赖库
@@ -35,6 +34,10 @@
 	
 	b. bin		：编译后的二进制文件
 
+
+5.裁剪头文件
+
+	bcpboost.sh
 
 ##### 联系作者
 1. QQ：371741579
