@@ -13,12 +13,12 @@
 
 ##### 编译
 
-#1. macosx
-* sh build.sh -macos  	#编译生成boost mac版本的库
-* sh build.sh -ios		#编译生成boost ios版本的库
-* sh build.sh -android	#编译生成boost android版本的库
+* 1. macosx
+** sh build.sh -macos  	#编译生成boost mac版本的库
+** sh build.sh -ios		#编译生成boost ios版本的库
+** sh build.sh -android	#编译生成boost android版本的库
 
-2. linux
+* linux
 
 	TODO:: 增加linux的编译支持
 
