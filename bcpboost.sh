@@ -11,6 +11,7 @@ asio.hpp \
 serialization/serialization.hpp \
 thread.hpp \
 bind/bind.hpp \
+regex.hpp \
 ref.hpp \
 bind.hpp \
 log/core.hpp \
@@ -22,6 +23,9 @@ log/expressions.hpp \
 log/sinks/text_ostream_backend.hpp \
 log/support/date_time.hpp \
 log/utility/setup/file.hpp \
+log/expressions.hpp \
+phoenix.hpp \
+phoenix/support/detail/iterate.hpp \
 core/null_deleter.hpp \
 bcpout
 #bcp command end
