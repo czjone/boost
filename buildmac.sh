@@ -25,3 +25,4 @@ echo "build boost iphone dev"
 # 库文件最终放在./stage/mac/下  
   
 echo "Completed successfully"  
+echo "库文件最终放在 boost/stage/mac/"
