@@ -9,5 +9,5 @@ cd "boost_1_66_0"
 #   exit 0  
 # fi  
 echo "build boost linux dev"  
-./bjam -j16 --with-iostreams --with-regex --with-timer --with-exception --with-chrono --with-serialization --with-signals --with-date_time --with-filesystem --with-system --with-thread --build-dir=stage --stagedir=stage/linux define=_LITTLE_ENDIAN link=static stage  
+./bjam -j16 --with-iostreams --with-regex --with-timer --with-exception --with-chrono --with-log --with-serialization --with-signals --with-date_time --with-filesystem --with-system --with-thread --build-dir=stage --stagedir=stage/linux define=_LITTLE_ENDIAN link=static stage  
 echo "Completed successfully"  

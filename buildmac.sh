@@ -21,7 +21,7 @@ echo "bootstrap"
 # 此脚本如果是被Xcode调用的话，会因为xcode export的某些变量导致失败，所以加了env -i。直接在命令行运行此脚本可以把env -i 去掉  
 env -i bash ./bootstrap.sh  
 echo "build boost iphone dev"  
-./bjam -j16 --with-iostreams --with-regex --with-timer --with-exception --with-chrono --with-serialization --with-signals --with-date_time --with-filesystem --with-system --with-thread --build-dir=stage --stagedir=stage/mac toolset=darwin define=_LITTLE_ENDIAN link=static stage  
+./bjam -j16 --with-iostreams --with-regex --with-timer  --with-log --with-exception --with-chrono --with-serialization --with-signals --with-date_time --with-filesystem --with-system --with-thread --build-dir=stage --stagedir=stage/mac toolset=darwin define=_LITTLE_ENDIAN link=static stage  
 # 库文件最终放在./stage/mac/下  
   
 echo "Completed successfully"  
