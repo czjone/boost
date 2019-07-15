@@ -12,6 +12,7 @@ asio.hpp \
 serialization/serialization.hpp \
 thread.hpp \
 bind/bind.hpp \
+thread/bind.hpp \
 regex.hpp \
 ref.hpp \
 signal.hpp \
