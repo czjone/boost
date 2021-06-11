@@ -1,7 +1,7 @@
 echo bcp the boost lib.
 cd boost_1_66_0
-bootstrap.cmd
-bjam tools/bcp
+./bootstrap.cmd
+./bjam tools/bcp
 
 mkdir bcpout
 echo bsc command begin
